@@ -69,7 +69,7 @@ list_of_planets = [
     population: 50000
   }]
 
-#solarsystem_name = "Sol"
+
 my_solarsystem = Solarsystem.new
 my_solarsystem.add_list_of_planets(list_of_planets) # adds to @solarsystem
 my_solarsystem.show_all_planets
